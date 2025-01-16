@@ -1,12 +1,18 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <h1>Bienvenido</h1>
+      <main className="flex-grow">
+        <Hero />
+        {/* <NewsEvents /> */}
+        {/* <GraduateCounter /> */}
+        {/* <WhyChooseUs /> */}
+      </main>
+      {/* <Footer /> */}
     </div>
-  );
-};
+  )
+}
 
-export default Home;
