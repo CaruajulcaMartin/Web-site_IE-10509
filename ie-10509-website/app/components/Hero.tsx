@@ -12,6 +12,7 @@ const Hero = () => {
                     objectFit="cover"
                     className="w-full h-full object-cover"
                 />
+                {/* se tiene que agregar unos patrones de fondo */}
                 <div className="absolute inset-0 bg-blue-500 opacity-30"></div>
             </div>
             <div className="relative z-10 text-center text-white flex flex-col items-center justify-center h-full mx-auto">
