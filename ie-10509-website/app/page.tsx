@@ -1,6 +1,9 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
+import NewsEvents from "./components/NewsEvents";
+import GraduateCounter from "./components/GraduateCounter";
+import WhyChooseUs from "./components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -8,9 +11,9 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <Hero />
-        {/* <NewsEvents /> */}
-        {/* <GraduateCounter /> */}
-        {/* <WhyChooseUs /> */}
+        <NewsEvents />
+        <GraduateCounter />
+        <WhyChooseUs />
       </main>
       <Footer />
     </div>
