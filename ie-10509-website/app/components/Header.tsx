@@ -15,7 +15,7 @@ const Header = () => {
                 <Link href="/" className="text-2xl font-bold">IE N° 10509</Link>
                 <nav className="hidden md:flex space-x-4">
                     <Link href="/" className="hover:text-blue-200 transition-colors">Inicio</Link>
-                    <Link href="/identidad" className="hover:text-blue-200 transition-colors">Identidad</Link>
+                    <Link href="/identidad" className="hover:text-blue-200 transition-colors">Identidad Institucional</Link>
                     <Link href="/propuesta" className="hover:text-blue-200 transition-colors">Propuesta Educativa</Link>
                     <Link href="/noticias" className="hover:text-blue-200 transition-colors">Noticias</Link>
                     <Link href="/contacto" className="hover:text-blue-200 transition-colors">Contacto</Link>
@@ -28,7 +28,7 @@ const Header = () => {
                 <div className="md:hidden">
                     <nav className="flex flex-col items-center py-4">
                         <Link href="/" className="py-2 hover:text-blue-200 transition-colors">Inicio</Link>
-                        <Link href="/identidad" className="py-2 hover:text-blue-200 transition-colors">Identidad</Link>
+                        <Link href="/identidad" className="py-2 hover:text-blue-200 transition-colors">Identidad Institucional</Link>
                         <Link href="/propuesta" className="py-2 hover:text-blue-200 transition-colors">Propuesta Educativa</Link>
                         <Link href="/noticias" className="py-2 hover:text-blue-200 transition-colors">Noticias</Link>
                         <Link href="/contacto" className="py-2 hover:text-blue-200 transition-colors">Contacto</Link>
