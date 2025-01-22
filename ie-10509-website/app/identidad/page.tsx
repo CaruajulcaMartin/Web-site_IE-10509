@@ -69,7 +69,7 @@ export default function Identidad() {
                             />
                         </div>
                         <div className='max-w-md'>
-                            <p className='text-gray-900 text-xl text-center md:text-left leading-relaxed'>
+                            <p className='text-gray-900 text-xl md:text-left leading-relaxed'>
                                 Nuestra institución se encuentra bajo la protección de la{' '}
                                 <strong>Virgen de Fátima</strong> o <strong>Nuestra Señora de Fátima</strong>,
                                 cuyo ejemplo de vida inspira nuestros valores y principios educativos.
